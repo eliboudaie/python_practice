@@ -1,4 +1,9 @@
 def word_check(str1, str2):
+    """ Checks if one string can be translated to another with a unique code
+    :param str1: Original string
+    :param str2: String to check if it can be translated
+    :return: True is possible, False if not
+    """
     if len(str1) != len(str2):
         return False
     matches = {}
